@@ -1,0 +1,6 @@
+projectKey=ExpositoTOP
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=ExpositoTOP
+ceTaskId=28d4e822-32ce-4ce1-8caf-8a008bc52ce2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=28d4e822-32ce-4ce1-8caf-8a008bc52ce2
