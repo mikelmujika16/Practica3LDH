@@ -1,0 +1,254 @@
+\doxysection{main.\+java.\+top.\+TOPTWGRASP Class Reference}
+\hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p}{}\label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a97b85de3fbbb32c7ac4660a93dd28429}{TOPTWGRASP}} (\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} sol)
+\item 
+void \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a35240bd870b5233f52842dfb3bf6dd8e}{GRASP}} (int max\+Iterations, int max\+Size\+RCL)
+\item 
+int \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a693849788795625348575352aefbb534}{aleatory\+Selection\+RCL}} (int max\+TRCL)
+\item 
+int \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2ca5e59f3d9b4de4ffb28e7746bd0ca9}{fuzzy\+Selection\+Best\+FDRCL}} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl)
+\item 
+int \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a3d589e3944d4d5d9dded25abb08f7698}{fuzzy\+Selection\+Alpha\+Cut\+RCL}} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl, double alpha)
+\item 
+void \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa96bb6713239abe94dee4782a7460aa4}{compute\+Greedy\+Solution}} (int max\+Size\+RCL)
+\item 
+void \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a574a7538dbc6a68c6eb81702c39fba5b}{update\+Solution}} (double\mbox{[}$\,$\mbox{]} candidate\+Selected, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a003bb93b8319818ecaa977430c1c3602}{comprehensive\+Evaluation}} (Array\+List$<$ Integer $>$ customers, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a793a794592c6623d157dda3b7c7f844e}{get\+Solution}} ()
+\item 
+void \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a423cc5a162e7d1db021cd6dd3edc6b62}{set\+Solution}} (\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} solution)
+\item 
+int \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_afc11595d11ca760517c9d0d465282843}{get\+Solution\+Time}} ()
+\item 
+void \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_adec36ac15cd58355083f8ce8f064ebf7}{set\+Solution\+Time}} (int solution\+Time)
+\item 
+double \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a40380399ba98ba62236572b77fe4497a}{get\+Max\+Score}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad35b5487934c89d4659a71e20e36850c}{NO\+\_\+\+EVALUATED}} = -\/1.\+0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a97b85de3fbbb32c7ac4660a93dd28429}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!TOPTWGRASP@{TOPTWGRASP}}
+\index{TOPTWGRASP@{TOPTWGRASP}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{TOPTWGRASP()}{TOPTWGRASP()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a97b85de3fbbb32c7ac4660a93dd28429} 
+main.\+java.\+top.\+TOPTWGRASP.\+TOPTWGRASP (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}}}]{sol}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a693849788795625348575352aefbb534}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!aleatorySelectionRCL@{aleatorySelectionRCL}}
+\index{aleatorySelectionRCL@{aleatorySelectionRCL}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{aleatorySelectionRCL()}{aleatorySelectionRCL()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a693849788795625348575352aefbb534} 
+int main.\+java.\+top.\+TOPTWGRASP.\+aleatory\+Selection\+RCL (\begin{DoxyParamCaption}\item[{int}]{max\+TRCL}{}\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a693849788795625348575352aefbb534_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a003bb93b8319818ecaa977430c1c3602}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!comprehensiveEvaluation@{comprehensiveEvaluation}}
+\index{comprehensiveEvaluation@{comprehensiveEvaluation}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{comprehensiveEvaluation()}{comprehensiveEvaluation()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a003bb93b8319818ecaa977430c1c3602} 
+Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ main.\+java.\+top.\+TOPTWGRASP.\+comprehensive\+Evaluation (\begin{DoxyParamCaption}\item[{Array\+List$<$ Integer $>$}]{customers}{, }\item[{Array\+List$<$ Array\+List$<$ Double $>$ $>$}]{departure\+Times}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a003bb93b8319818ecaa977430c1c3602_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a003bb93b8319818ecaa977430c1c3602_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa96bb6713239abe94dee4782a7460aa4}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!computeGreedySolution@{computeGreedySolution}}
+\index{computeGreedySolution@{computeGreedySolution}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{computeGreedySolution()}{computeGreedySolution()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa96bb6713239abe94dee4782a7460aa4} 
+void main.\+java.\+top.\+TOPTWGRASP.\+compute\+Greedy\+Solution (\begin{DoxyParamCaption}\item[{int}]{max\+Size\+RCL}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa96bb6713239abe94dee4782a7460aa4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa96bb6713239abe94dee4782a7460aa4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a3d589e3944d4d5d9dded25abb08f7698}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!fuzzySelectionAlphaCutRCL@{fuzzySelectionAlphaCutRCL}}
+\index{fuzzySelectionAlphaCutRCL@{fuzzySelectionAlphaCutRCL}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{fuzzySelectionAlphaCutRCL()}{fuzzySelectionAlphaCutRCL()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a3d589e3944d4d5d9dded25abb08f7698} 
+int main.\+java.\+top.\+TOPTWGRASP.\+fuzzy\+Selection\+Alpha\+Cut\+RCL (\begin{DoxyParamCaption}\item[{Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$}]{rcl}{, }\item[{double}]{alpha}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a3d589e3944d4d5d9dded25abb08f7698_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a3d589e3944d4d5d9dded25abb08f7698_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2ca5e59f3d9b4de4ffb28e7746bd0ca9}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!fuzzySelectionBestFDRCL@{fuzzySelectionBestFDRCL}}
+\index{fuzzySelectionBestFDRCL@{fuzzySelectionBestFDRCL}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{fuzzySelectionBestFDRCL()}{fuzzySelectionBestFDRCL()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2ca5e59f3d9b4de4ffb28e7746bd0ca9} 
+int main.\+java.\+top.\+TOPTWGRASP.\+fuzzy\+Selection\+Best\+FDRCL (\begin{DoxyParamCaption}\item[{Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$}]{rcl}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2ca5e59f3d9b4de4ffb28e7746bd0ca9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2ca5e59f3d9b4de4ffb28e7746bd0ca9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a40380399ba98ba62236572b77fe4497a}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!getMaxScore@{getMaxScore}}
+\index{getMaxScore@{getMaxScore}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getMaxScore()}{getMaxScore()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a40380399ba98ba62236572b77fe4497a} 
+double main.\+java.\+top.\+TOPTWGRASP.\+get\+Max\+Score (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a40380399ba98ba62236572b77fe4497a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a40380399ba98ba62236572b77fe4497a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a793a794592c6623d157dda3b7c7f844e}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!getSolution@{getSolution}}
+\index{getSolution@{getSolution}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getSolution()}{getSolution()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a793a794592c6623d157dda3b7c7f844e} 
+\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} main.\+java.\+top.\+TOPTWGRASP.\+get\+Solution (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_afc11595d11ca760517c9d0d465282843}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!getSolutionTime@{getSolutionTime}}
+\index{getSolutionTime@{getSolutionTime}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getSolutionTime()}{getSolutionTime()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_afc11595d11ca760517c9d0d465282843} 
+int main.\+java.\+top.\+TOPTWGRASP.\+get\+Solution\+Time (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a35240bd870b5233f52842dfb3bf6dd8e}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!GRASP@{GRASP}}
+\index{GRASP@{GRASP}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{GRASP()}{GRASP()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a35240bd870b5233f52842dfb3bf6dd8e} 
+void main.\+java.\+top.\+TOPTWGRASP.\+GRASP (\begin{DoxyParamCaption}\item[{int}]{max\+Iterations}{, }\item[{int}]{max\+Size\+RCL}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a35240bd870b5233f52842dfb3bf6dd8e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a35240bd870b5233f52842dfb3bf6dd8e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a423cc5a162e7d1db021cd6dd3edc6b62}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!setSolution@{setSolution}}
+\index{setSolution@{setSolution}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{setSolution()}{setSolution()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a423cc5a162e7d1db021cd6dd3edc6b62} 
+void main.\+java.\+top.\+TOPTWGRASP.\+set\+Solution (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}}}]{solution}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_adec36ac15cd58355083f8ce8f064ebf7}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!setSolutionTime@{setSolutionTime}}
+\index{setSolutionTime@{setSolutionTime}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{setSolutionTime()}{setSolutionTime()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_adec36ac15cd58355083f8ce8f064ebf7} 
+void main.\+java.\+top.\+TOPTWGRASP.\+set\+Solution\+Time (\begin{DoxyParamCaption}\item[{int}]{solution\+Time}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a574a7538dbc6a68c6eb81702c39fba5b}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!updateSolution@{updateSolution}}
+\index{updateSolution@{updateSolution}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{updateSolution()}{updateSolution()}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a574a7538dbc6a68c6eb81702c39fba5b} 
+void main.\+java.\+top.\+TOPTWGRASP.\+update\+Solution (\begin{DoxyParamCaption}\item[{double\mbox{[}$\,$\mbox{]}}]{candidate\+Selected}{, }\item[{Array\+List$<$ Array\+List$<$ Double $>$ $>$}]{departure\+Times}{}\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a574a7538dbc6a68c6eb81702c39fba5b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a574a7538dbc6a68c6eb81702c39fba5b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad35b5487934c89d4659a71e20e36850c}\index{main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}!NO\_EVALUATED@{NO\_EVALUATED}}
+\index{NO\_EVALUATED@{NO\_EVALUATED}!main.java.top.TOPTWGRASP@{main.java.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{NO\_EVALUATED}{NO\_EVALUATED}}
+{\footnotesize\ttfamily \label{classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad35b5487934c89d4659a71e20e36850c} 
+double main.\+java.\+top.\+TOPTWGRASP.\+NO\+\_\+\+EVALUATED = -\/1.\+0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/top/\mbox{\hyperlink{_t_o_p_t_w_g_r_a_s_p_8java}{TOPTWGRASP.\+java}}\end{DoxyCompactItemize}
