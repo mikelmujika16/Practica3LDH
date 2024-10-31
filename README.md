@@ -4,4 +4,4 @@ Codigo fuente con la corrección indicada en el informe -> .\src
 
 Documentación generada en formato pdf -> .\latex\refman.pdf
 
-Ficheros de configuración -> pom.xml
+Ficheros de configuración -> .\pom.xml y .\Doxyfile
